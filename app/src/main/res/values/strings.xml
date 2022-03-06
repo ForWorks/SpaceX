@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SpaceX</string>
+    <string name="item_image">Image</string>
+    <string name="first_launch">First launch</string>
+    <string name="launch_cost">Launch cost</string>
+    <string name="launch_success">Success</string>
+    <string name="launch_date">date</string>
+    <string name="launch_cost_data">cost</string>
+    <string name="launch_success_data">success</string>
+    <string name="item_title">Falcon Heavy</string>
+    <string name="top_bottom_arrows">Arrows</string>
+    <string name="rocket">Rocket</string>
+    <string name="launches">Launches</string>
+    <string name="launchpads">Launchpads</string>
+    <string name="rocket_info_image">Rocket info</string>
+    <string name="rocket_name">name</string>
+    <string name="description">Description</string>
+    <string name="rocket_description">rocket description</string>
+    <string name="rocket_image_description">rocket image description</string>
+    <string name="rocket_mass">Mass</string>
+    <string name="rocket_height">Height</string>
+    <string name="rocket_diameter">Diameter</string>
+    <string name="wikipedia">Wikipedia</string>
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/itemLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="324dp"
+        android:background="@drawable/custom_info_place"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="320dp"
+            android:layout_height="204dp"
+            android:contentDescription="@string/item_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/main_item_image_round" />
+
+        <TextView
+            android:id="@+id/itemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="-5dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/item_title"
+            android:textColor="@color/item_title"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.068"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/itemImage"
+            app:layout_constraintVertical_bias="0.138" />
+
+        <TextView
+            android:id="@+id/firstLaunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/first_launch"
+            android:textColor="@color/item_title"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/itemTitle"
+            app:layout_constraintTop_toBottomOf="@+id/itemTitle" />
+
+        <TextView
+            android:id="@+id/launchCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/launch_cost"
+            android:textColor="@color/item_title"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/launchCostData"
+            app:layout_constraintTop_toBottomOf="@+id/itemTitle" />
+
+        <TextView
+            android:id="@+id/launchSuccess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/launch_success"
+            android:textColor="@color/item_title"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/launchSuccessData"
+            app:layout_constraintTop_toBottomOf="@+id/itemTitle" />
+
+        <TextView
+            android:id="@+id/launchDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="@string/launch_date"
+            android:textColor="@color/launch_data"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/firstLaunch"
+            app:layout_constraintTop_toBottomOf="@+id/firstLaunch" />
+
+        <TextView
+            android:id="@+id/launchCostData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="7dp"
+            android:text="@string/launch_cost_data"
+            android:textColor="@color/launch_data"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/launchDate"
+            app:layout_constraintTop_toBottomOf="@+id/launchCost" />
+
+        <TextView
+            android:id="@+id/launchSuccessData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="7dp"
+            android:text="@string/launch_success_data"
+            android:textColor="@color/launch_data"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/launchCostData"
+            app:layout_constraintTop_toBottomOf="@+id/launchSuccess" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

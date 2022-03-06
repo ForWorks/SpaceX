@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/rocket_item"
+        android:enabled="true"
+        android:icon="@drawable/rocket"
+        android:title="@string/rocket">
+    </item>
+    <item
+        android:id="@+id/launches_item"
+        android:enabled="true"
+        android:icon="@drawable/options"
+        android:title="@string/launches">
+    </item>
+    <item
+        android:id="@+id/launchpads_item"
+        android:enabled="true"
+        android:icon="@drawable/lego"
+        android:title="@string/launchpads">
+    </item>
+</menu>
